@@ -1,0 +1,94 @@
+body,html{
+  height: 100%;
+  background-image: url(pic.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.outer{
+    right: 350px;
+    float: right;
+   top: 80px;
+   left: 0em;
+   bottom: 10px;
+  max-width: 350px;
+  max-height: 650px;
+  min-width: 350px;
+  min-height: 470px;
+ position: sticky;
+ margin-right: 50px;
+}
+.main
+{
+ width: 350px;
+  background-color: hsl(0, 0%, 96%);
+  text-align: center;
+ border-style: groove;
+ max-height: 470px;
+
+}
+
+
+input[type=text] {
+   width: 75%;
+  padding: 10px;
+  margin: 0px 0 5px 0;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=password] {
+  width: 75%;
+  padding: 10px;
+  margin: 5px 0 5px 0;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=radio] {
+  margin-top: 20px;
+  border-radius: 100px;
+  color: red;
+}
+input[type=text]:focus, input[type=password]:focus,input[type=radio]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+  margin: 15px 0 5px 0 ;
+}
+
+input[type=submit]:hover {
+  opacity: 1;
+}
+p[id="title"]{
+  font-style: oblique;
+  font-size: 30px;
+  font-stretch: extra-expanded;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+.signup{
+  width: 350px;
+  background-color: hsl(0, 0%, 96%);
+  text-align: center;
+ border-style: groove;
+ margin-top: 10px;
+ padding: 10px 0px;
+ text-align: center;
+
+}
+img{
+  left: 0;
+  float: left;
+  margin: 100px 300px;
+  position: static;
+}
